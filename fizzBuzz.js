@@ -2,11 +2,11 @@ let answer = parseInt(prompt("Enter a number, fizzy dizzy: "));
 
 for (let i = 1; i <= answer; i++){
     if (i % 3 === 0 && i % 5 === 0){
-        console.log("FizzDizz");
+        console.log("FizzBuzz");
     } else if (i % 3 === 0) {
         console.log("Fizz");
     } else if (i % 5 === 0) { 
-        console.log("Dizz");
+        console.log("Buzz");
     } else {
         console.log(i);
     }
